@@ -6,6 +6,9 @@
 //
 // Marcio Sarroglia Pinho
 // pinho@pucrs.br
+//
+// Trabalho 2 - Guilherme Vieira e Lucca Demichei
+//
 // **********************************************************************
 
 #include <iostream>
@@ -13,7 +16,6 @@
 #include <ctime>
 
 using namespace std;
-
 
 #ifdef WIN32
 #include <windows.h>
@@ -167,7 +169,7 @@ void DesenhaParalelepipedo()
         glTranslatef(0,0,-1);
         glScalef(1,1,2);
         glutSolidCube(2);
-        //DesenhaCubo(1);
+        //DesenhaCubo(2);
     glPopMatrix();
 }
 
@@ -179,7 +181,7 @@ void DesenhaParalelepipedo()
 // **********************************************************************
 void DesenhaLadrilho(int corBorda, int corDentro)
 {
-    //defineCor(corDentro);// desenha QUAD preenchido
+    defineCor(corDentro);// desenha QUAD preenchido
     glColor3f(1,1,1);
     glBegin ( GL_QUADS );
         glNormal3f(0,1,0);
@@ -189,8 +191,8 @@ void DesenhaLadrilho(int corBorda, int corDentro)
         glVertex3f( 0.5f,  0.0f, -0.5f);
     glEnd();
 
-    //defineCor(corBorda);
-    glColor3f(0,1,0);
+    defineCor(corBorda);
+    glColor3f(10,2,10);
 
     glBegin ( GL_LINE_STRIP );
         glNormal3f(0,1,0);
@@ -358,8 +360,8 @@ void display( void )
 		glScalef(3,3,3);
 		glColor3f(0.6156862745, 0.8980392157, 0.9803921569); // Azul claro
         //glutSolidCube(2);
-		glutSolidDodecahedron();
-		//DesenhaCubo(1);
+		//glutSolidDodecahedron();
+		DesenhaCubo(1);
 	glPopMatrix();
 
     DesenhaPiso();
