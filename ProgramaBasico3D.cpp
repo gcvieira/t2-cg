@@ -212,10 +212,10 @@ void DesenhaPiso()
     srand(100); // usa uma semente fixa para gerar sempre as mesma cores no piso
     glPushMatrix();
     glTranslated(CantoEsquerdo.x, CantoEsquerdo.y, CantoEsquerdo.z);
-    for(int x=-20; x<20;x++)
+    for(int x=-30; x<30;x++)
     {
         glPushMatrix();
-        for(int z=-20; z<20;z++)
+        for(int z=-30; z<30;z++)
         {
             DesenhaLadrilho(MediumGoldenrod, rand()%40);
             glTranslated(0, 0, 1);

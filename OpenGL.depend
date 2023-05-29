@@ -418,3 +418,83 @@
 1654607286 source:/home/18103690/Downloads/OpenGL-CodeBlocks-Xcode/Temporizador.cpp
 	"Temporizador.h"
 
+1685322748 source:c:\users\guilherme.camara\t2-cg\linha.cpp
+	<cstdlib>
+	<glut.h>
+	"Linha.h"
+
+1685322748 c:\users\guilherme.camara\t2-cg\gl\glut.h
+	"freeglut.h"
+
+1685322748 c:\users\guilherme.camara\t2-cg\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1685322748 c:\users\guilherme.camara\t2-cg\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1685322748 c:\users\guilherme.camara\t2-cg\gl\freeglut_ext.h
+
+1685322748 c:\users\guilherme.camara\t2-cg\linha.h
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+
+1685322748 source:c:\users\guilherme.camara\t2-cg\listadecoresrgb.cpp
+	"ListaDeCoresRGB.h"
+
+1685322748 c:\users\guilherme.camara\t2-cg\listadecoresrgb.h
+	<iostream>
+	<cmath>
+	<ctime>
+	<fstream>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+
+1685322748 source:c:\users\guilherme.camara\t2-cg\poligono.cpp
+	<iostream>
+	<fstream>
+	"Poligono.h"
+
+1685322748 c:\users\guilherme.camara\t2-cg\poligono.h
+	<iostream>
+	<windows.h>
+	<glut.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Ponto.h"
+	<vector>
+
+1685322748 c:\users\guilherme.camara\t2-cg\ponto.h
+	<iostream>
+	<cmath>
+
+1685322748 source:c:\users\guilherme.camara\t2-cg\ponto.cpp
+	"Ponto.h"
+
+1685322748 source:c:\users\guilherme.camara\t2-cg\programabasico3d.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<windows.h>
+	<glut.h>
+	<sys/time.h>
+	<GLUT/glut.h>
+	<glut.h>
+	"Temporizador.h"
+	"ListaDeCoresRGB.h"
+	"Ponto.h"
+
+1685322748 c:\users\guilherme.camara\t2-cg\temporizador.h
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1685322748 source:c:\users\guilherme.camara\t2-cg\temporizador.cpp
+	"Temporizador.h"
+
